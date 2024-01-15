@@ -1,0 +1,735 @@
+2023-12-03 10:30:21,469 - trainer - INFO - Use pytorch device: cuda, with gpu_number=1
+2023-12-03 10:30:21,470 - trainer - INFO -    see seed for random, numpy and torch 122
+2023-12-03 10:30:23,739 - trainer - INFO - gpt.transformer.wte.weight	torch.Size([50261, 768])
+2023-12-03 10:30:23,740 - trainer - INFO - gpt.transformer.wpe.weight	torch.Size([1024, 768])
+2023-12-03 10:30:23,741 - trainer - INFO - gpt.transformer.h.0.ln_1.weight	torch.Size([768])
+2023-12-03 10:30:23,741 - trainer - INFO - gpt.transformer.h.0.ln_1.bias	torch.Size([768])
+2023-12-03 10:30:23,742 - trainer - INFO - gpt.transformer.h.0.attn.c_attn.weight	torch.Size([768, 2304])
+2023-12-03 10:30:23,743 - trainer - INFO - gpt.transformer.h.0.attn.c_attn.bias	torch.Size([2304])
+2023-12-03 10:30:23,743 - trainer - INFO - gpt.transformer.h.0.attn.c_proj.weight	torch.Size([768, 768])
+2023-12-03 10:30:23,744 - trainer - INFO - gpt.transformer.h.0.attn.c_proj.bias	torch.Size([768])
+2023-12-03 10:30:23,744 - trainer - INFO - gpt.transformer.h.0.ln_2.weight	torch.Size([768])
+2023-12-03 10:30:23,745 - trainer - INFO - gpt.transformer.h.0.ln_2.bias	torch.Size([768])
+2023-12-03 10:30:23,746 - trainer - INFO - gpt.transformer.h.0.mlp.c_fc.weight	torch.Size([768, 3072])
+2023-12-03 10:30:23,746 - trainer - INFO - gpt.transformer.h.0.mlp.c_fc.bias	torch.Size([3072])
+2023-12-03 10:30:23,747 - trainer - INFO - gpt.transformer.h.0.mlp.c_proj.weight	torch.Size([3072, 768])
+2023-12-03 10:30:23,747 - trainer - INFO - gpt.transformer.h.0.mlp.c_proj.bias	torch.Size([768])
+2023-12-03 10:30:23,748 - trainer - INFO - gpt.transformer.h.1.ln_1.weight	torch.Size([768])
+2023-12-03 10:30:23,748 - trainer - INFO - gpt.transformer.h.1.ln_1.bias	torch.Size([768])
+2023-12-03 10:30:23,749 - trainer - INFO - gpt.transformer.h.1.attn.c_attn.weight	torch.Size([768, 2304])
+2023-12-03 10:30:23,750 - trainer - INFO - gpt.transformer.h.1.attn.c_attn.bias	torch.Size([2304])
+2023-12-03 10:30:23,750 - trainer - INFO - gpt.transformer.h.1.attn.c_proj.weight	torch.Size([768, 768])
+2023-12-03 10:30:23,751 - trainer - INFO - gpt.transformer.h.1.attn.c_proj.bias	torch.Size([768])
+2023-12-03 10:30:23,751 - trainer - INFO - gpt.transformer.h.1.ln_2.weight	torch.Size([768])
+2023-12-03 10:30:23,752 - trainer - INFO - gpt.transformer.h.1.ln_2.bias	torch.Size([768])
+2023-12-03 10:30:23,752 - trainer - INFO - gpt.transformer.h.1.mlp.c_fc.weight	torch.Size([768, 3072])
+2023-12-03 10:30:23,753 - trainer - INFO - gpt.transformer.h.1.mlp.c_fc.bias	torch.Size([3072])
+2023-12-03 10:30:23,754 - trainer - INFO - gpt.transformer.h.1.mlp.c_proj.weight	torch.Size([3072, 768])
+2023-12-03 10:30:23,754 - trainer - INFO - gpt.transformer.h.1.mlp.c_proj.bias	torch.Size([768])
+2023-12-03 10:30:23,755 - trainer - INFO - gpt.transformer.h.2.ln_1.weight	torch.Size([768])
+2023-12-03 10:30:23,755 - trainer - INFO - gpt.transformer.h.2.ln_1.bias	torch.Size([768])
+2023-12-03 10:30:23,756 - trainer - INFO - gpt.transformer.h.2.attn.c_attn.weight	torch.Size([768, 2304])
+2023-12-03 10:30:23,757 - trainer - INFO - gpt.transformer.h.2.attn.c_attn.bias	torch.Size([2304])
+2023-12-03 10:30:23,757 - trainer - INFO - gpt.transformer.h.2.attn.c_proj.weight	torch.Size([768, 768])
+2023-12-03 10:30:23,758 - trainer - INFO - gpt.transformer.h.2.attn.c_proj.bias	torch.Size([768])
+2023-12-03 10:30:23,758 - trainer - INFO - gpt.transformer.h.2.ln_2.weight	torch.Size([768])
+2023-12-03 10:30:23,759 - trainer - INFO - gpt.transformer.h.2.ln_2.bias	torch.Size([768])
+2023-12-03 10:30:23,759 - trainer - INFO - gpt.transformer.h.2.mlp.c_fc.weight	torch.Size([768, 3072])
+2023-12-03 10:30:23,760 - trainer - INFO - gpt.transformer.h.2.mlp.c_fc.bias	torch.Size([3072])
+2023-12-03 10:30:23,761 - trainer - INFO - gpt.transformer.h.2.mlp.c_proj.weight	torch.Size([3072, 768])
+2023-12-03 10:30:23,761 - trainer - INFO - gpt.transformer.h.2.mlp.c_proj.bias	torch.Size([768])
+2023-12-03 10:30:23,762 - trainer - INFO - gpt.transformer.h.3.ln_1.weight	torch.Size([768])
+2023-12-03 10:30:23,762 - trainer - INFO - gpt.transformer.h.3.ln_1.bias	torch.Size([768])
+2023-12-03 10:30:23,763 - trainer - INFO - gpt.transformer.h.3.attn.c_attn.weight	torch.Size([768, 2304])
+2023-12-03 10:30:23,763 - trainer - INFO - gpt.transformer.h.3.attn.c_attn.bias	torch.Size([2304])
+2023-12-03 10:30:23,764 - trainer - INFO - gpt.transformer.h.3.attn.c_proj.weight	torch.Size([768, 768])
+2023-12-03 10:30:23,765 - trainer - INFO - gpt.transformer.h.3.attn.c_proj.bias	torch.Size([768])
+2023-12-03 10:30:23,765 - trainer - INFO - gpt.transformer.h.3.ln_2.weight	torch.Size([768])
+2023-12-03 10:30:23,766 - trainer - INFO - gpt.transformer.h.3.ln_2.bias	torch.Size([768])
+2023-12-03 10:30:23,766 - trainer - INFO - gpt.transformer.h.3.mlp.c_fc.weight	torch.Size([768, 3072])
+2023-12-03 10:30:23,767 - trainer - INFO - gpt.transformer.h.3.mlp.c_fc.bias	torch.Size([3072])
+2023-12-03 10:30:23,768 - trainer - INFO - gpt.transformer.h.3.mlp.c_proj.weight	torch.Size([3072, 768])
+2023-12-03 10:30:23,768 - trainer - INFO - gpt.transformer.h.3.mlp.c_proj.bias	torch.Size([768])
+2023-12-03 10:30:23,769 - trainer - INFO - gpt.transformer.h.4.ln_1.weight	torch.Size([768])
+2023-12-03 10:30:23,770 - trainer - INFO - gpt.transformer.h.4.ln_1.bias	torch.Size([768])
+2023-12-03 10:30:23,770 - trainer - INFO - gpt.transformer.h.4.attn.c_attn.weight	torch.Size([768, 2304])
+2023-12-03 10:30:23,771 - trainer - INFO - gpt.transformer.h.4.attn.c_attn.bias	torch.Size([2304])
+2023-12-03 10:30:23,771 - trainer - INFO - gpt.transformer.h.4.attn.c_proj.weight	torch.Size([768, 768])
+2023-12-03 10:30:23,772 - trainer - INFO - gpt.transformer.h.4.attn.c_proj.bias	torch.Size([768])
+2023-12-03 10:30:23,773 - trainer - INFO - gpt.transformer.h.4.ln_2.weight	torch.Size([768])
+2023-12-03 10:30:23,773 - trainer - INFO - gpt.transformer.h.4.ln_2.bias	torch.Size([768])
+2023-12-03 10:30:23,774 - trainer - INFO - gpt.transformer.h.4.mlp.c_fc.weight	torch.Size([768, 3072])
+2023-12-03 10:30:23,774 - trainer - INFO - gpt.transformer.h.4.mlp.c_fc.bias	torch.Size([3072])
+2023-12-03 10:30:23,775 - trainer - INFO - gpt.transformer.h.4.mlp.c_proj.weight	torch.Size([3072, 768])
+2023-12-03 10:30:23,775 - trainer - INFO - gpt.transformer.h.4.mlp.c_proj.bias	torch.Size([768])
+2023-12-03 10:30:23,776 - trainer - INFO - gpt.transformer.h.5.ln_1.weight	torch.Size([768])
+2023-12-03 10:30:23,777 - trainer - INFO - gpt.transformer.h.5.ln_1.bias	torch.Size([768])
+2023-12-03 10:30:23,777 - trainer - INFO - gpt.transformer.h.5.attn.c_attn.weight	torch.Size([768, 2304])
+2023-12-03 10:30:23,778 - trainer - INFO - gpt.transformer.h.5.attn.c_attn.bias	torch.Size([2304])
+2023-12-03 10:30:23,779 - trainer - INFO - gpt.transformer.h.5.attn.c_proj.weight	torch.Size([768, 768])
+2023-12-03 10:30:23,779 - trainer - INFO - gpt.transformer.h.5.attn.c_proj.bias	torch.Size([768])
+2023-12-03 10:30:23,780 - trainer - INFO - gpt.transformer.h.5.ln_2.weight	torch.Size([768])
+2023-12-03 10:30:23,780 - trainer - INFO - gpt.transformer.h.5.ln_2.bias	torch.Size([768])
+2023-12-03 10:30:23,781 - trainer - INFO - gpt.transformer.h.5.mlp.c_fc.weight	torch.Size([768, 3072])
+2023-12-03 10:30:23,782 - trainer - INFO - gpt.transformer.h.5.mlp.c_fc.bias	torch.Size([3072])
+2023-12-03 10:30:23,782 - trainer - INFO - gpt.transformer.h.5.mlp.c_proj.weight	torch.Size([3072, 768])
+2023-12-03 10:30:23,783 - trainer - INFO - gpt.transformer.h.5.mlp.c_proj.bias	torch.Size([768])
+2023-12-03 10:30:23,783 - trainer - INFO - gpt.transformer.ln_f.weight	torch.Size([768])
+2023-12-03 10:30:23,784 - trainer - INFO - gpt.transformer.ln_f.bias	torch.Size([768])
+2023-12-03 10:30:23,785 - trainer - INFO - gpt.lm_head.weight	torch.Size([50261, 768])
+2023-12-03 10:30:23,785 - trainer - INFO - GPTSingleHead(
+  (gpt): GPT2LMHeadModel(
+    (transformer): GPT2Model(
+      (wte): Embedding(50261, 768)
+      (wpe): Embedding(1024, 768)
+      (drop): Dropout(p=0.1, inplace=False)
+      (h): ModuleList(
+        (0-5): 6 x GPT2Block(
+          (ln_1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (attn): GPT2Attention(
+            (c_attn): Conv1D()
+            (c_proj): Conv1D()
+            (attn_dropout): Dropout(p=0.1, inplace=False)
+            (resid_dropout): Dropout(p=0.1, inplace=False)
+          )
+          (ln_2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (mlp): GPT2MLP(
+            (c_fc): Conv1D()
+            (c_proj): Conv1D()
+            (act): NewGELUActivation()
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+      )
+      (ln_f): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+    )
+    (lm_head): Linear(in_features=768, out_features=50261, bias=False)
+  )
+)
+2023-12-03 10:30:23,786 - trainer - INFO - EmptyHeads()
+2023-12-03 10:30:23,786 - trainer - INFO -   Total params: 81915648
+2023-12-03 10:30:23,786 - trainer - INFO -   Trainable params: 81915648
+2023-12-03 10:30:23,787 - trainer - INFO -   Non-trainable params: 0
+2023-12-03 10:30:23,789 - trainer - INFO -    Warmup-steps: 3300
+2023-12-03 10:30:23,790 - trainer - INFO - ***** Running training *****
+2023-12-03 10:30:23,791 - trainer - INFO -   Num of training examples (actually iterations per epoch for Iterable Dataset) = 263968
+2023-12-03 10:30:23,791 - trainer - INFO -   Output path (short): tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 10:30:23,791 - trainer - INFO -   Steps per Epoch = 16498 or iterations per epoch = 65992
+2023-12-03 10:30:23,791 - trainer - INFO -   Num of Epochs = 1
+2023-12-03 10:30:23,791 - trainer - INFO -   Best score (perplexity) = -inf
+2023-12-03 10:30:23,791 - trainer - INFO -   Eval every 500 steps or every 2000 iterations
+2023-12-03 10:30:23,791 - trainer - INFO -   Early stop = 20
+2023-12-03 10:30:23,791 - trainer - INFO -   Gradient Accumulation steps = 4
+2023-12-03 10:30:23,791 - trainer - INFO -   Total optimization steps = 16498
+2023-12-03 10:30:23,791 - trainer - INFO -   Instantaneous batch size per GPU = 4 and n_gpu = 1 so the input batch size = 4
+2023-12-03 10:36:05,090 - trainer - INFO -    Save model to tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 10:36:05,936 - trainer - INFO -   Save check-point at epoch=0 step=500
+2023-12-03 10:36:05,936 - trainer - INFO -    ***** Evaluation report *****
+2023-12-03 10:36:05,936 - trainer - INFO -   Output path (short): tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 10:36:05,936 - trainer - INFO -   Early stop on: perplexity
+2023-12-03 10:36:05,936 - trainer - INFO -   Early stop count = 0/20
+2023-12-03 10:36:05,936 - trainer - INFO -   Eval steps = 500 or (iterations = 2000)
+2023-12-03 10:36:05,937 - trainer - INFO -   Best score (perplexity) = -3.401945114135742
+2023-12-03 10:36:05,937 - trainer - INFO -   Gradient Accumulation steps = 4
+2023-12-03 10:36:05,937 - trainer - INFO -   Num of training examples (actually no. of iterations per epoch for Iterable Dataset)  = 263968
+2023-12-03 10:36:05,937 - trainer - INFO -   Num of development examples (actually no. of iterations per epoch for Iterable Dataset) = 29331
+2023-12-03 10:36:05,937 - trainer - INFO -   Time spent since last evaluation = 0h 5m 42s
+2023-12-03 10:36:05,937 - trainer - INFO -   Epoch = 1/1
+2023-12-03 10:36:05,937 - trainer - INFO -   Steps = 500/16498
+2023-12-03 10:36:05,937 - trainer - INFO -   Instantaneous batch size per GPU = 4 and n_gpu = 1 so the input batch size = 4
+2023-12-03 10:36:05,937 - trainer - INFO -   dev_loss = 1.224347	||	 dev_eval_scores = {'perplexity': 3.401945114135742}
+2023-12-03 10:36:05,937 - trainer - INFO -   train_loss = 1.4417251110076904
+2023-12-03 10:36:05,937 - trainer - INFO - 
+********************************************
+2023-12-03 10:41:46,557 - trainer - INFO -    Save model to tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 10:41:47,667 - trainer - INFO -   Save check-point at epoch=0 step=1000
+2023-12-03 10:41:47,667 - trainer - INFO -    ***** Evaluation report *****
+2023-12-03 10:41:47,667 - trainer - INFO -   Output path (short): tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 10:41:47,667 - trainer - INFO -   Early stop on: perplexity
+2023-12-03 10:41:47,667 - trainer - INFO -   Early stop count = 0/20
+2023-12-03 10:41:47,667 - trainer - INFO -   Eval steps = 500 or (iterations = 2000)
+2023-12-03 10:41:47,667 - trainer - INFO -   Best score (perplexity) = -3.395772933959961
+2023-12-03 10:41:47,667 - trainer - INFO -   Gradient Accumulation steps = 4
+2023-12-03 10:41:47,667 - trainer - INFO -   Num of training examples (actually no. of iterations per epoch for Iterable Dataset)  = 263968
+2023-12-03 10:41:47,667 - trainer - INFO -   Num of development examples (actually no. of iterations per epoch for Iterable Dataset) = 29331
+2023-12-03 10:41:47,667 - trainer - INFO -   Time spent since last evaluation = 0h 5m 41s
+2023-12-03 10:41:47,667 - trainer - INFO -   Epoch = 1/1
+2023-12-03 10:41:47,667 - trainer - INFO -   Steps = 1000/16498
+2023-12-03 10:41:47,668 - trainer - INFO -   Instantaneous batch size per GPU = 4 and n_gpu = 1 so the input batch size = 4
+2023-12-03 10:41:47,668 - trainer - INFO -   dev_loss = 1.222531	||	 dev_eval_scores = {'perplexity': 3.395772933959961}
+2023-12-03 10:41:47,668 - trainer - INFO -   train_loss = 1.3808829069137573
+2023-12-03 10:41:47,668 - trainer - INFO - 
+********************************************
+2023-12-03 10:47:28,152 - trainer - INFO -    Save model to tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 10:47:29,240 - trainer - INFO -   Save check-point at epoch=0 step=1500
+2023-12-03 10:47:29,240 - trainer - INFO -    ***** Evaluation report *****
+2023-12-03 10:47:29,240 - trainer - INFO -   Output path (short): tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 10:47:29,240 - trainer - INFO -   Early stop on: perplexity
+2023-12-03 10:47:29,240 - trainer - INFO -   Early stop count = 0/20
+2023-12-03 10:47:29,240 - trainer - INFO -   Eval steps = 500 or (iterations = 2000)
+2023-12-03 10:47:29,240 - trainer - INFO -   Best score (perplexity) = -3.3910446166992188
+2023-12-03 10:47:29,240 - trainer - INFO -   Gradient Accumulation steps = 4
+2023-12-03 10:47:29,240 - trainer - INFO -   Num of training examples (actually no. of iterations per epoch for Iterable Dataset)  = 263968
+2023-12-03 10:47:29,240 - trainer - INFO -   Num of development examples (actually no. of iterations per epoch for Iterable Dataset) = 29331
+2023-12-03 10:47:29,241 - trainer - INFO -   Time spent since last evaluation = 0h 5m 41s
+2023-12-03 10:47:29,241 - trainer - INFO -   Epoch = 1/1
+2023-12-03 10:47:29,241 - trainer - INFO -   Steps = 1500/16498
+2023-12-03 10:47:29,241 - trainer - INFO -   Instantaneous batch size per GPU = 4 and n_gpu = 1 so the input batch size = 4
+2023-12-03 10:47:29,241 - trainer - INFO -   dev_loss = 1.221138	||	 dev_eval_scores = {'perplexity': 3.3910446166992188}
+2023-12-03 10:47:29,241 - trainer - INFO -   train_loss = 1.3257330656051636
+2023-12-03 10:47:29,241 - trainer - INFO - 
+********************************************
+2023-12-03 10:53:09,958 - trainer - INFO -    Save model to tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 10:53:11,048 - trainer - INFO -   Save check-point at epoch=0 step=2000
+2023-12-03 10:53:11,048 - trainer - INFO -    ***** Evaluation report *****
+2023-12-03 10:53:11,048 - trainer - INFO -   Output path (short): tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 10:53:11,048 - trainer - INFO -   Early stop on: perplexity
+2023-12-03 10:53:11,048 - trainer - INFO -   Early stop count = 0/20
+2023-12-03 10:53:11,048 - trainer - INFO -   Eval steps = 500 or (iterations = 2000)
+2023-12-03 10:53:11,048 - trainer - INFO -   Best score (perplexity) = -3.3573060035705566
+2023-12-03 10:53:11,049 - trainer - INFO -   Gradient Accumulation steps = 4
+2023-12-03 10:53:11,049 - trainer - INFO -   Num of training examples (actually no. of iterations per epoch for Iterable Dataset)  = 263968
+2023-12-03 10:53:11,049 - trainer - INFO -   Num of development examples (actually no. of iterations per epoch for Iterable Dataset) = 29331
+2023-12-03 10:53:11,049 - trainer - INFO -   Time spent since last evaluation = 0h 5m 41s
+2023-12-03 10:53:11,049 - trainer - INFO -   Epoch = 1/1
+2023-12-03 10:53:11,049 - trainer - INFO -   Steps = 2000/16498
+2023-12-03 10:53:11,049 - trainer - INFO -   Instantaneous batch size per GPU = 4 and n_gpu = 1 so the input batch size = 4
+2023-12-03 10:53:11,049 - trainer - INFO -   dev_loss = 1.211139	||	 dev_eval_scores = {'perplexity': 3.3573060035705566}
+2023-12-03 10:53:11,049 - trainer - INFO -   train_loss = 1.3218283653259277
+2023-12-03 10:53:11,049 - trainer - INFO - 
+********************************************
+2023-12-03 10:58:51,840 - trainer - INFO -    Save model to tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 10:58:52,926 - trainer - INFO -   Save check-point at epoch=0 step=2500
+2023-12-03 10:58:52,926 - trainer - INFO -    ***** Evaluation report *****
+2023-12-03 10:58:52,926 - trainer - INFO -   Output path (short): tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 10:58:52,926 - trainer - INFO -   Early stop on: perplexity
+2023-12-03 10:58:52,926 - trainer - INFO -   Early stop count = 0/20
+2023-12-03 10:58:52,926 - trainer - INFO -   Eval steps = 500 or (iterations = 2000)
+2023-12-03 10:58:52,926 - trainer - INFO -   Best score (perplexity) = -3.3227572441101074
+2023-12-03 10:58:52,926 - trainer - INFO -   Gradient Accumulation steps = 4
+2023-12-03 10:58:52,926 - trainer - INFO -   Num of training examples (actually no. of iterations per epoch for Iterable Dataset)  = 263968
+2023-12-03 10:58:52,926 - trainer - INFO -   Num of development examples (actually no. of iterations per epoch for Iterable Dataset) = 29331
+2023-12-03 10:58:52,927 - trainer - INFO -   Time spent since last evaluation = 0h 5m 41s
+2023-12-03 10:58:52,927 - trainer - INFO -   Epoch = 1/1
+2023-12-03 10:58:52,927 - trainer - INFO -   Steps = 2500/16498
+2023-12-03 10:58:52,927 - trainer - INFO -   Instantaneous batch size per GPU = 4 and n_gpu = 1 so the input batch size = 4
+2023-12-03 10:58:52,927 - trainer - INFO -   dev_loss = 1.200795	||	 dev_eval_scores = {'perplexity': 3.3227572441101074}
+2023-12-03 10:58:52,927 - trainer - INFO -   train_loss = 1.3158180713653564
+2023-12-03 10:58:52,927 - trainer - INFO - 
+********************************************
+2023-12-03 11:04:33,206 - trainer - INFO -    Save model to tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 11:04:34,274 - trainer - INFO -   Save check-point at epoch=0 step=3000
+2023-12-03 11:04:34,274 - trainer - INFO -    ***** Evaluation report *****
+2023-12-03 11:04:34,274 - trainer - INFO -   Output path (short): tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 11:04:34,274 - trainer - INFO -   Early stop on: perplexity
+2023-12-03 11:04:34,274 - trainer - INFO -   Early stop count = 0/20
+2023-12-03 11:04:34,274 - trainer - INFO -   Eval steps = 500 or (iterations = 2000)
+2023-12-03 11:04:34,274 - trainer - INFO -   Best score (perplexity) = -3.2906274795532227
+2023-12-03 11:04:34,274 - trainer - INFO -   Gradient Accumulation steps = 4
+2023-12-03 11:04:34,274 - trainer - INFO -   Num of training examples (actually no. of iterations per epoch for Iterable Dataset)  = 263968
+2023-12-03 11:04:34,274 - trainer - INFO -   Num of development examples (actually no. of iterations per epoch for Iterable Dataset) = 29331
+2023-12-03 11:04:34,275 - trainer - INFO -   Time spent since last evaluation = 0h 5m 41s
+2023-12-03 11:04:34,275 - trainer - INFO -   Epoch = 1/1
+2023-12-03 11:04:34,275 - trainer - INFO -   Steps = 3000/16498
+2023-12-03 11:04:34,275 - trainer - INFO -   Instantaneous batch size per GPU = 4 and n_gpu = 1 so the input batch size = 4
+2023-12-03 11:04:34,275 - trainer - INFO -   dev_loss = 1.191078	||	 dev_eval_scores = {'perplexity': 3.2906274795532227}
+2023-12-03 11:04:34,275 - trainer - INFO -   train_loss = 1.3126749992370605
+2023-12-03 11:04:34,275 - trainer - INFO - 
+********************************************
+2023-12-03 11:10:14,593 - trainer - INFO -    Save model to tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 11:10:15,619 - trainer - INFO -   Save check-point at epoch=0 step=3500
+2023-12-03 11:10:15,619 - trainer - INFO -    ***** Evaluation report *****
+2023-12-03 11:10:15,619 - trainer - INFO -   Output path (short): tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 11:10:15,619 - trainer - INFO -   Early stop on: perplexity
+2023-12-03 11:10:15,619 - trainer - INFO -   Early stop count = 0/20
+2023-12-03 11:10:15,619 - trainer - INFO -   Eval steps = 500 or (iterations = 2000)
+2023-12-03 11:10:15,619 - trainer - INFO -   Best score (perplexity) = -3.2516918182373047
+2023-12-03 11:10:15,619 - trainer - INFO -   Gradient Accumulation steps = 4
+2023-12-03 11:10:15,619 - trainer - INFO -   Num of training examples (actually no. of iterations per epoch for Iterable Dataset)  = 263968
+2023-12-03 11:10:15,620 - trainer - INFO -   Num of development examples (actually no. of iterations per epoch for Iterable Dataset) = 29331
+2023-12-03 11:10:15,620 - trainer - INFO -   Time spent since last evaluation = 0h 5m 41s
+2023-12-03 11:10:15,620 - trainer - INFO -   Epoch = 1/1
+2023-12-03 11:10:15,620 - trainer - INFO -   Steps = 3500/16498
+2023-12-03 11:10:15,620 - trainer - INFO -   Instantaneous batch size per GPU = 4 and n_gpu = 1 so the input batch size = 4
+2023-12-03 11:10:15,620 - trainer - INFO -   dev_loss = 1.179175	||	 dev_eval_scores = {'perplexity': 3.2516918182373047}
+2023-12-03 11:10:15,620 - trainer - INFO -   train_loss = 1.3080384731292725
+2023-12-03 11:10:15,620 - trainer - INFO - 
+********************************************
+2023-12-03 11:15:55,851 - trainer - INFO -    Save model to tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 11:15:56,866 - trainer - INFO -   Save check-point at epoch=0 step=4000
+2023-12-03 11:15:56,866 - trainer - INFO -    ***** Evaluation report *****
+2023-12-03 11:15:56,867 - trainer - INFO -   Output path (short): tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 11:15:56,867 - trainer - INFO -   Early stop on: perplexity
+2023-12-03 11:15:56,867 - trainer - INFO -   Early stop count = 0/20
+2023-12-03 11:15:56,867 - trainer - INFO -   Eval steps = 500 or (iterations = 2000)
+2023-12-03 11:15:56,867 - trainer - INFO -   Best score (perplexity) = -3.229748487472534
+2023-12-03 11:15:56,867 - trainer - INFO -   Gradient Accumulation steps = 4
+2023-12-03 11:15:56,867 - trainer - INFO -   Num of training examples (actually no. of iterations per epoch for Iterable Dataset)  = 263968
+2023-12-03 11:15:56,867 - trainer - INFO -   Num of development examples (actually no. of iterations per epoch for Iterable Dataset) = 29331
+2023-12-03 11:15:56,867 - trainer - INFO -   Time spent since last evaluation = 0h 5m 41s
+2023-12-03 11:15:56,867 - trainer - INFO -   Epoch = 1/1
+2023-12-03 11:15:56,867 - trainer - INFO -   Steps = 4000/16498
+2023-12-03 11:15:56,867 - trainer - INFO -   Instantaneous batch size per GPU = 4 and n_gpu = 1 so the input batch size = 4
+2023-12-03 11:15:56,867 - trainer - INFO -   dev_loss = 1.172404	||	 dev_eval_scores = {'perplexity': 3.229748487472534}
+2023-12-03 11:15:56,868 - trainer - INFO -   train_loss = 1.3030498027801514
+2023-12-03 11:15:56,868 - trainer - INFO - 
+********************************************
+2023-12-03 11:21:37,095 - trainer - INFO -    Save model to tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 11:21:38,114 - trainer - INFO -   Save check-point at epoch=0 step=4500
+2023-12-03 11:21:38,114 - trainer - INFO -    ***** Evaluation report *****
+2023-12-03 11:21:38,114 - trainer - INFO -   Output path (short): tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 11:21:38,114 - trainer - INFO -   Early stop on: perplexity
+2023-12-03 11:21:38,114 - trainer - INFO -   Early stop count = 0/20
+2023-12-03 11:21:38,114 - trainer - INFO -   Eval steps = 500 or (iterations = 2000)
+2023-12-03 11:21:38,114 - trainer - INFO -   Best score (perplexity) = -3.1965551376342773
+2023-12-03 11:21:38,114 - trainer - INFO -   Gradient Accumulation steps = 4
+2023-12-03 11:21:38,114 - trainer - INFO -   Num of training examples (actually no. of iterations per epoch for Iterable Dataset)  = 263968
+2023-12-03 11:21:38,114 - trainer - INFO -   Num of development examples (actually no. of iterations per epoch for Iterable Dataset) = 29331
+2023-12-03 11:21:38,114 - trainer - INFO -   Time spent since last evaluation = 0h 5m 41s
+2023-12-03 11:21:38,114 - trainer - INFO -   Epoch = 1/1
+2023-12-03 11:21:38,115 - trainer - INFO -   Steps = 4500/16498
+2023-12-03 11:21:38,115 - trainer - INFO -   Instantaneous batch size per GPU = 4 and n_gpu = 1 so the input batch size = 4
+2023-12-03 11:21:38,115 - trainer - INFO -   dev_loss = 1.162074	||	 dev_eval_scores = {'perplexity': 3.1965551376342773}
+2023-12-03 11:21:38,115 - trainer - INFO -   train_loss = 1.2978674173355103
+2023-12-03 11:21:38,115 - trainer - INFO - 
+********************************************
+2023-12-03 11:27:18,733 - trainer - INFO -    Save model to tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 11:27:19,781 - trainer - INFO -   Save check-point at epoch=0 step=5000
+2023-12-03 11:27:19,782 - trainer - INFO -    ***** Evaluation report *****
+2023-12-03 11:27:19,782 - trainer - INFO -   Output path (short): tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 11:27:19,782 - trainer - INFO -   Early stop on: perplexity
+2023-12-03 11:27:19,782 - trainer - INFO -   Early stop count = 0/20
+2023-12-03 11:27:19,782 - trainer - INFO -   Eval steps = 500 or (iterations = 2000)
+2023-12-03 11:27:19,782 - trainer - INFO -   Best score (perplexity) = -3.159756660461426
+2023-12-03 11:27:19,782 - trainer - INFO -   Gradient Accumulation steps = 4
+2023-12-03 11:27:19,782 - trainer - INFO -   Num of training examples (actually no. of iterations per epoch for Iterable Dataset)  = 263968
+2023-12-03 11:27:19,782 - trainer - INFO -   Num of development examples (actually no. of iterations per epoch for Iterable Dataset) = 29331
+2023-12-03 11:27:19,782 - trainer - INFO -   Time spent since last evaluation = 0h 5m 41s
+2023-12-03 11:27:19,782 - trainer - INFO -   Epoch = 1/1
+2023-12-03 11:27:19,782 - trainer - INFO -   Steps = 5000/16498
+2023-12-03 11:27:19,782 - trainer - INFO -   Instantaneous batch size per GPU = 4 and n_gpu = 1 so the input batch size = 4
+2023-12-03 11:27:19,782 - trainer - INFO -   dev_loss = 1.150495	||	 dev_eval_scores = {'perplexity': 3.159756660461426}
+2023-12-03 11:27:19,783 - trainer - INFO -   train_loss = 1.292663335800171
+2023-12-03 11:27:19,783 - trainer - INFO - 
+********************************************
+2023-12-03 11:33:01,107 - trainer - INFO -    Save model to tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 11:33:02,146 - trainer - INFO -   Save check-point at epoch=0 step=5500
+2023-12-03 11:33:02,146 - trainer - INFO -    ***** Evaluation report *****
+2023-12-03 11:33:02,147 - trainer - INFO -   Output path (short): tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 11:33:02,147 - trainer - INFO -   Early stop on: perplexity
+2023-12-03 11:33:02,147 - trainer - INFO -   Early stop count = 0/20
+2023-12-03 11:33:02,147 - trainer - INFO -   Eval steps = 500 or (iterations = 2000)
+2023-12-03 11:33:02,147 - trainer - INFO -   Best score (perplexity) = -3.129310131072998
+2023-12-03 11:33:02,147 - trainer - INFO -   Gradient Accumulation steps = 4
+2023-12-03 11:33:02,147 - trainer - INFO -   Num of training examples (actually no. of iterations per epoch for Iterable Dataset)  = 263968
+2023-12-03 11:33:02,147 - trainer - INFO -   Num of development examples (actually no. of iterations per epoch for Iterable Dataset) = 29331
+2023-12-03 11:33:02,147 - trainer - INFO -   Time spent since last evaluation = 0h 5m 42s
+2023-12-03 11:33:02,147 - trainer - INFO -   Epoch = 1/1
+2023-12-03 11:33:02,147 - trainer - INFO -   Steps = 5500/16498
+2023-12-03 11:33:02,147 - trainer - INFO -   Instantaneous batch size per GPU = 4 and n_gpu = 1 so the input batch size = 4
+2023-12-03 11:33:02,147 - trainer - INFO -   dev_loss = 1.140813	||	 dev_eval_scores = {'perplexity': 3.129310131072998}
+2023-12-03 11:33:02,147 - trainer - INFO -   train_loss = 1.2886309623718262
+2023-12-03 11:33:02,148 - trainer - INFO - 
+********************************************
+2023-12-03 11:38:43,106 - trainer - INFO -    Save model to tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 11:38:44,146 - trainer - INFO -   Save check-point at epoch=0 step=6000
+2023-12-03 11:38:44,146 - trainer - INFO -    ***** Evaluation report *****
+2023-12-03 11:38:44,146 - trainer - INFO -   Output path (short): tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 11:38:44,146 - trainer - INFO -   Early stop on: perplexity
+2023-12-03 11:38:44,146 - trainer - INFO -   Early stop count = 0/20
+2023-12-03 11:38:44,146 - trainer - INFO -   Eval steps = 500 or (iterations = 2000)
+2023-12-03 11:38:44,147 - trainer - INFO -   Best score (perplexity) = -3.107025384902954
+2023-12-03 11:38:44,147 - trainer - INFO -   Gradient Accumulation steps = 4
+2023-12-03 11:38:44,147 - trainer - INFO -   Num of training examples (actually no. of iterations per epoch for Iterable Dataset)  = 263968
+2023-12-03 11:38:44,147 - trainer - INFO -   Num of development examples (actually no. of iterations per epoch for Iterable Dataset) = 29331
+2023-12-03 11:38:44,147 - trainer - INFO -   Time spent since last evaluation = 0h 5m 41s
+2023-12-03 11:38:44,147 - trainer - INFO -   Epoch = 1/1
+2023-12-03 11:38:44,147 - trainer - INFO -   Steps = 6000/16498
+2023-12-03 11:38:44,147 - trainer - INFO -   Instantaneous batch size per GPU = 4 and n_gpu = 1 so the input batch size = 4
+2023-12-03 11:38:44,147 - trainer - INFO -   dev_loss = 1.133666	||	 dev_eval_scores = {'perplexity': 3.107025384902954}
+2023-12-03 11:38:44,147 - trainer - INFO -   train_loss = 1.2833852767944336
+2023-12-03 11:38:44,147 - trainer - INFO - 
+********************************************
+2023-12-03 11:44:25,103 - trainer - INFO -    Save model to tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 11:44:26,131 - trainer - INFO -   Save check-point at epoch=0 step=6500
+2023-12-03 11:44:26,132 - trainer - INFO -    ***** Evaluation report *****
+2023-12-03 11:44:26,132 - trainer - INFO -   Output path (short): tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 11:44:26,132 - trainer - INFO -   Early stop on: perplexity
+2023-12-03 11:44:26,132 - trainer - INFO -   Early stop count = 0/20
+2023-12-03 11:44:26,132 - trainer - INFO -   Eval steps = 500 or (iterations = 2000)
+2023-12-03 11:44:26,132 - trainer - INFO -   Best score (perplexity) = -3.082545280456543
+2023-12-03 11:44:26,132 - trainer - INFO -   Gradient Accumulation steps = 4
+2023-12-03 11:44:26,132 - trainer - INFO -   Num of training examples (actually no. of iterations per epoch for Iterable Dataset)  = 263968
+2023-12-03 11:44:26,132 - trainer - INFO -   Num of development examples (actually no. of iterations per epoch for Iterable Dataset) = 29331
+2023-12-03 11:44:26,132 - trainer - INFO -   Time spent since last evaluation = 0h 5m 41s
+2023-12-03 11:44:26,132 - trainer - INFO -   Epoch = 1/1
+2023-12-03 11:44:26,132 - trainer - INFO -   Steps = 6500/16498
+2023-12-03 11:44:26,132 - trainer - INFO -   Instantaneous batch size per GPU = 4 and n_gpu = 1 so the input batch size = 4
+2023-12-03 11:44:26,133 - trainer - INFO -   dev_loss = 1.125756	||	 dev_eval_scores = {'perplexity': 3.082545280456543}
+2023-12-03 11:44:26,133 - trainer - INFO -   train_loss = 1.2787024974822998
+2023-12-03 11:44:26,133 - trainer - INFO - 
+********************************************
+2023-12-03 11:50:07,443 - trainer - INFO -    Save model to tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 11:50:08,468 - trainer - INFO -   Save check-point at epoch=0 step=7000
+2023-12-03 11:50:08,468 - trainer - INFO -    ***** Evaluation report *****
+2023-12-03 11:50:08,468 - trainer - INFO -   Output path (short): tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 11:50:08,469 - trainer - INFO -   Early stop on: perplexity
+2023-12-03 11:50:08,469 - trainer - INFO -   Early stop count = 0/20
+2023-12-03 11:50:08,469 - trainer - INFO -   Eval steps = 500 or (iterations = 2000)
+2023-12-03 11:50:08,469 - trainer - INFO -   Best score (perplexity) = -3.0512096881866455
+2023-12-03 11:50:08,469 - trainer - INFO -   Gradient Accumulation steps = 4
+2023-12-03 11:50:08,469 - trainer - INFO -   Num of training examples (actually no. of iterations per epoch for Iterable Dataset)  = 263968
+2023-12-03 11:50:08,469 - trainer - INFO -   Num of development examples (actually no. of iterations per epoch for Iterable Dataset) = 29331
+2023-12-03 11:50:08,469 - trainer - INFO -   Time spent since last evaluation = 0h 5m 42s
+2023-12-03 11:50:08,469 - trainer - INFO -   Epoch = 1/1
+2023-12-03 11:50:08,469 - trainer - INFO -   Steps = 7000/16498
+2023-12-03 11:50:08,469 - trainer - INFO -   Instantaneous batch size per GPU = 4 and n_gpu = 1 so the input batch size = 4
+2023-12-03 11:50:08,469 - trainer - INFO -   dev_loss = 1.115538	||	 dev_eval_scores = {'perplexity': 3.0512096881866455}
+2023-12-03 11:50:08,469 - trainer - INFO -   train_loss = 1.2736037969589233
+2023-12-03 11:50:08,469 - trainer - INFO - 
+********************************************
+2023-12-03 11:55:49,802 - trainer - INFO -    Save model to tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 11:55:50,836 - trainer - INFO -   Save check-point at epoch=0 step=7500
+2023-12-03 11:55:50,836 - trainer - INFO -    ***** Evaluation report *****
+2023-12-03 11:55:50,837 - trainer - INFO -   Output path (short): tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 11:55:50,837 - trainer - INFO -   Early stop on: perplexity
+2023-12-03 11:55:50,837 - trainer - INFO -   Early stop count = 0/20
+2023-12-03 11:55:50,837 - trainer - INFO -   Eval steps = 500 or (iterations = 2000)
+2023-12-03 11:55:50,837 - trainer - INFO -   Best score (perplexity) = -3.0286967754364014
+2023-12-03 11:55:50,837 - trainer - INFO -   Gradient Accumulation steps = 4
+2023-12-03 11:55:50,837 - trainer - INFO -   Num of training examples (actually no. of iterations per epoch for Iterable Dataset)  = 263968
+2023-12-03 11:55:50,837 - trainer - INFO -   Num of development examples (actually no. of iterations per epoch for Iterable Dataset) = 29331
+2023-12-03 11:55:50,837 - trainer - INFO -   Time spent since last evaluation = 0h 5m 42s
+2023-12-03 11:55:50,837 - trainer - INFO -   Epoch = 1/1
+2023-12-03 11:55:50,837 - trainer - INFO -   Steps = 7500/16498
+2023-12-03 11:55:50,837 - trainer - INFO -   Instantaneous batch size per GPU = 4 and n_gpu = 1 so the input batch size = 4
+2023-12-03 11:55:50,837 - trainer - INFO -   dev_loss = 1.108132	||	 dev_eval_scores = {'perplexity': 3.0286967754364014}
+2023-12-03 11:55:50,837 - trainer - INFO -   train_loss = 1.2689664363861084
+2023-12-03 11:55:50,838 - trainer - INFO - 
+********************************************
+2023-12-03 12:01:31,838 - trainer - INFO -    Save model to tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 12:01:32,868 - trainer - INFO -   Save check-point at epoch=0 step=8000
+2023-12-03 12:01:32,868 - trainer - INFO -    ***** Evaluation report *****
+2023-12-03 12:01:32,868 - trainer - INFO -   Output path (short): tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 12:01:32,868 - trainer - INFO -   Early stop on: perplexity
+2023-12-03 12:01:32,868 - trainer - INFO -   Early stop count = 0/20
+2023-12-03 12:01:32,868 - trainer - INFO -   Eval steps = 500 or (iterations = 2000)
+2023-12-03 12:01:32,868 - trainer - INFO -   Best score (perplexity) = -3.0088613033294678
+2023-12-03 12:01:32,868 - trainer - INFO -   Gradient Accumulation steps = 4
+2023-12-03 12:01:32,868 - trainer - INFO -   Num of training examples (actually no. of iterations per epoch for Iterable Dataset)  = 263968
+2023-12-03 12:01:32,868 - trainer - INFO -   Num of development examples (actually no. of iterations per epoch for Iterable Dataset) = 29331
+2023-12-03 12:01:32,868 - trainer - INFO -   Time spent since last evaluation = 0h 5m 42s
+2023-12-03 12:01:32,868 - trainer - INFO -   Epoch = 1/1
+2023-12-03 12:01:32,869 - trainer - INFO -   Steps = 8000/16498
+2023-12-03 12:01:32,869 - trainer - INFO -   Instantaneous batch size per GPU = 4 and n_gpu = 1 so the input batch size = 4
+2023-12-03 12:01:32,869 - trainer - INFO -   dev_loss = 1.101562	||	 dev_eval_scores = {'perplexity': 3.0088613033294678}
+2023-12-03 12:01:32,869 - trainer - INFO -   train_loss = 1.264847993850708
+2023-12-03 12:01:32,869 - trainer - INFO - 
+********************************************
+2023-12-03 12:07:13,845 - trainer - INFO -    Save model to tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 12:07:14,877 - trainer - INFO -   Save check-point at epoch=0 step=8500
+2023-12-03 12:07:14,878 - trainer - INFO -    ***** Evaluation report *****
+2023-12-03 12:07:14,878 - trainer - INFO -   Output path (short): tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 12:07:14,878 - trainer - INFO -   Early stop on: perplexity
+2023-12-03 12:07:14,878 - trainer - INFO -   Early stop count = 0/20
+2023-12-03 12:07:14,878 - trainer - INFO -   Eval steps = 500 or (iterations = 2000)
+2023-12-03 12:07:14,878 - trainer - INFO -   Best score (perplexity) = -2.99688982963562
+2023-12-03 12:07:14,878 - trainer - INFO -   Gradient Accumulation steps = 4
+2023-12-03 12:07:14,878 - trainer - INFO -   Num of training examples (actually no. of iterations per epoch for Iterable Dataset)  = 263968
+2023-12-03 12:07:14,878 - trainer - INFO -   Num of development examples (actually no. of iterations per epoch for Iterable Dataset) = 29331
+2023-12-03 12:07:14,878 - trainer - INFO -   Time spent since last evaluation = 0h 5m 42s
+2023-12-03 12:07:14,878 - trainer - INFO -   Epoch = 1/1
+2023-12-03 12:07:14,878 - trainer - INFO -   Steps = 8500/16498
+2023-12-03 12:07:14,878 - trainer - INFO -   Instantaneous batch size per GPU = 4 and n_gpu = 1 so the input batch size = 4
+2023-12-03 12:07:14,878 - trainer - INFO -   dev_loss = 1.097575	||	 dev_eval_scores = {'perplexity': 2.99688982963562}
+2023-12-03 12:07:14,879 - trainer - INFO -   train_loss = 1.2603206634521484
+2023-12-03 12:07:14,879 - trainer - INFO - 
+********************************************
+2023-12-03 12:12:56,275 - trainer - INFO -    Save model to tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 12:12:57,299 - trainer - INFO -   Save check-point at epoch=0 step=9000
+2023-12-03 12:12:57,299 - trainer - INFO -    ***** Evaluation report *****
+2023-12-03 12:12:57,299 - trainer - INFO -   Output path (short): tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 12:12:57,299 - trainer - INFO -   Early stop on: perplexity
+2023-12-03 12:12:57,299 - trainer - INFO -   Early stop count = 0/20
+2023-12-03 12:12:57,300 - trainer - INFO -   Eval steps = 500 or (iterations = 2000)
+2023-12-03 12:12:57,300 - trainer - INFO -   Best score (perplexity) = -2.974036693572998
+2023-12-03 12:12:57,300 - trainer - INFO -   Gradient Accumulation steps = 4
+2023-12-03 12:12:57,300 - trainer - INFO -   Num of training examples (actually no. of iterations per epoch for Iterable Dataset)  = 263968
+2023-12-03 12:12:57,300 - trainer - INFO -   Num of development examples (actually no. of iterations per epoch for Iterable Dataset) = 29331
+2023-12-03 12:12:57,300 - trainer - INFO -   Time spent since last evaluation = 0h 5m 42s
+2023-12-03 12:12:57,300 - trainer - INFO -   Epoch = 1/1
+2023-12-03 12:12:57,300 - trainer - INFO -   Steps = 9000/16498
+2023-12-03 12:12:57,300 - trainer - INFO -   Instantaneous batch size per GPU = 4 and n_gpu = 1 so the input batch size = 4
+2023-12-03 12:12:57,300 - trainer - INFO -   dev_loss = 1.089920	||	 dev_eval_scores = {'perplexity': 2.974036693572998}
+2023-12-03 12:12:57,300 - trainer - INFO -   train_loss = 1.2562729120254517
+2023-12-03 12:12:57,300 - trainer - INFO - 
+********************************************
+2023-12-03 12:18:37,994 - trainer - INFO -    Save model to tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 12:18:39,019 - trainer - INFO -   Save check-point at epoch=0 step=9500
+2023-12-03 12:18:39,019 - trainer - INFO -    ***** Evaluation report *****
+2023-12-03 12:18:39,019 - trainer - INFO -   Output path (short): tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 12:18:39,020 - trainer - INFO -   Early stop on: perplexity
+2023-12-03 12:18:39,020 - trainer - INFO -   Early stop count = 0/20
+2023-12-03 12:18:39,020 - trainer - INFO -   Eval steps = 500 or (iterations = 2000)
+2023-12-03 12:18:39,020 - trainer - INFO -   Best score (perplexity) = -2.95611834526062
+2023-12-03 12:18:39,020 - trainer - INFO -   Gradient Accumulation steps = 4
+2023-12-03 12:18:39,020 - trainer - INFO -   Num of training examples (actually no. of iterations per epoch for Iterable Dataset)  = 263968
+2023-12-03 12:18:39,020 - trainer - INFO -   Num of development examples (actually no. of iterations per epoch for Iterable Dataset) = 29331
+2023-12-03 12:18:39,020 - trainer - INFO -   Time spent since last evaluation = 0h 5m 41s
+2023-12-03 12:18:39,020 - trainer - INFO -   Epoch = 1/1
+2023-12-03 12:18:39,020 - trainer - INFO -   Steps = 9500/16498
+2023-12-03 12:18:39,020 - trainer - INFO -   Instantaneous batch size per GPU = 4 and n_gpu = 1 so the input batch size = 4
+2023-12-03 12:18:39,020 - trainer - INFO -   dev_loss = 1.083877	||	 dev_eval_scores = {'perplexity': 2.95611834526062}
+2023-12-03 12:18:39,020 - trainer - INFO -   train_loss = 1.2520109415054321
+2023-12-03 12:18:39,021 - trainer - INFO - 
+********************************************
+2023-12-03 12:24:19,692 - trainer - INFO -    Save model to tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 12:24:20,717 - trainer - INFO -   Save check-point at epoch=0 step=10000
+2023-12-03 12:24:20,717 - trainer - INFO -    ***** Evaluation report *****
+2023-12-03 12:24:20,717 - trainer - INFO -   Output path (short): tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 12:24:20,717 - trainer - INFO -   Early stop on: perplexity
+2023-12-03 12:24:20,717 - trainer - INFO -   Early stop count = 0/20
+2023-12-03 12:24:20,717 - trainer - INFO -   Eval steps = 500 or (iterations = 2000)
+2023-12-03 12:24:20,718 - trainer - INFO -   Best score (perplexity) = -2.9376416206359863
+2023-12-03 12:24:20,718 - trainer - INFO -   Gradient Accumulation steps = 4
+2023-12-03 12:24:20,718 - trainer - INFO -   Num of training examples (actually no. of iterations per epoch for Iterable Dataset)  = 263968
+2023-12-03 12:24:20,718 - trainer - INFO -   Num of development examples (actually no. of iterations per epoch for Iterable Dataset) = 29331
+2023-12-03 12:24:20,718 - trainer - INFO -   Time spent since last evaluation = 0h 5m 41s
+2023-12-03 12:24:20,718 - trainer - INFO -   Epoch = 1/1
+2023-12-03 12:24:20,718 - trainer - INFO -   Steps = 10000/16498
+2023-12-03 12:24:20,718 - trainer - INFO -   Instantaneous batch size per GPU = 4 and n_gpu = 1 so the input batch size = 4
+2023-12-03 12:24:20,718 - trainer - INFO -   dev_loss = 1.077607	||	 dev_eval_scores = {'perplexity': 2.9376416206359863}
+2023-12-03 12:24:20,718 - trainer - INFO -   train_loss = 1.2481508255004883
+2023-12-03 12:24:20,718 - trainer - INFO - 
+********************************************
+2023-12-03 12:30:01,395 - trainer - INFO -    Save model to tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 12:30:02,418 - trainer - INFO -   Save check-point at epoch=0 step=10500
+2023-12-03 12:30:02,418 - trainer - INFO -    ***** Evaluation report *****
+2023-12-03 12:30:02,418 - trainer - INFO -   Output path (short): tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 12:30:02,418 - trainer - INFO -   Early stop on: perplexity
+2023-12-03 12:30:02,418 - trainer - INFO -   Early stop count = 0/20
+2023-12-03 12:30:02,418 - trainer - INFO -   Eval steps = 500 or (iterations = 2000)
+2023-12-03 12:30:02,419 - trainer - INFO -   Best score (perplexity) = -2.9254162311553955
+2023-12-03 12:30:02,419 - trainer - INFO -   Gradient Accumulation steps = 4
+2023-12-03 12:30:02,419 - trainer - INFO -   Num of training examples (actually no. of iterations per epoch for Iterable Dataset)  = 263968
+2023-12-03 12:30:02,419 - trainer - INFO -   Num of development examples (actually no. of iterations per epoch for Iterable Dataset) = 29331
+2023-12-03 12:30:02,419 - trainer - INFO -   Time spent since last evaluation = 0h 5m 41s
+2023-12-03 12:30:02,419 - trainer - INFO -   Epoch = 1/1
+2023-12-03 12:30:02,419 - trainer - INFO -   Steps = 10500/16498
+2023-12-03 12:30:02,419 - trainer - INFO -   Instantaneous batch size per GPU = 4 and n_gpu = 1 so the input batch size = 4
+2023-12-03 12:30:02,419 - trainer - INFO -   dev_loss = 1.073437	||	 dev_eval_scores = {'perplexity': 2.9254162311553955}
+2023-12-03 12:30:02,419 - trainer - INFO -   train_loss = 1.244431495666504
+2023-12-03 12:30:02,419 - trainer - INFO - 
+********************************************
+2023-12-03 12:35:43,314 - trainer - INFO -    Save model to tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 12:35:44,337 - trainer - INFO -   Save check-point at epoch=0 step=11000
+2023-12-03 12:35:44,337 - trainer - INFO -    ***** Evaluation report *****
+2023-12-03 12:35:44,338 - trainer - INFO -   Output path (short): tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 12:35:44,338 - trainer - INFO -   Early stop on: perplexity
+2023-12-03 12:35:44,338 - trainer - INFO -   Early stop count = 0/20
+2023-12-03 12:35:44,338 - trainer - INFO -   Eval steps = 500 or (iterations = 2000)
+2023-12-03 12:35:44,338 - trainer - INFO -   Best score (perplexity) = -2.920504570007324
+2023-12-03 12:35:44,338 - trainer - INFO -   Gradient Accumulation steps = 4
+2023-12-03 12:35:44,338 - trainer - INFO -   Num of training examples (actually no. of iterations per epoch for Iterable Dataset)  = 263968
+2023-12-03 12:35:44,338 - trainer - INFO -   Num of development examples (actually no. of iterations per epoch for Iterable Dataset) = 29331
+2023-12-03 12:35:44,338 - trainer - INFO -   Time spent since last evaluation = 0h 5m 41s
+2023-12-03 12:35:44,338 - trainer - INFO -   Epoch = 1/1
+2023-12-03 12:35:44,338 - trainer - INFO -   Steps = 11000/16498
+2023-12-03 12:35:44,338 - trainer - INFO -   Instantaneous batch size per GPU = 4 and n_gpu = 1 so the input batch size = 4
+2023-12-03 12:35:44,338 - trainer - INFO -   dev_loss = 1.071756	||	 dev_eval_scores = {'perplexity': 2.920504570007324}
+2023-12-03 12:35:44,338 - trainer - INFO -   train_loss = 1.2406651973724365
+2023-12-03 12:35:44,339 - trainer - INFO - 
+********************************************
+2023-12-03 12:41:25,206 - trainer - INFO -    Save model to tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 12:41:26,224 - trainer - INFO -   Save check-point at epoch=0 step=11500
+2023-12-03 12:41:26,225 - trainer - INFO -    ***** Evaluation report *****
+2023-12-03 12:41:26,225 - trainer - INFO -   Output path (short): tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 12:41:26,225 - trainer - INFO -   Early stop on: perplexity
+2023-12-03 12:41:26,225 - trainer - INFO -   Early stop count = 0/20
+2023-12-03 12:41:26,225 - trainer - INFO -   Eval steps = 500 or (iterations = 2000)
+2023-12-03 12:41:26,225 - trainer - INFO -   Best score (perplexity) = -2.9098756313323975
+2023-12-03 12:41:26,225 - trainer - INFO -   Gradient Accumulation steps = 4
+2023-12-03 12:41:26,225 - trainer - INFO -   Num of training examples (actually no. of iterations per epoch for Iterable Dataset)  = 263968
+2023-12-03 12:41:26,225 - trainer - INFO -   Num of development examples (actually no. of iterations per epoch for Iterable Dataset) = 29331
+2023-12-03 12:41:26,225 - trainer - INFO -   Time spent since last evaluation = 0h 5m 41s
+2023-12-03 12:41:26,225 - trainer - INFO -   Epoch = 1/1
+2023-12-03 12:41:26,225 - trainer - INFO -   Steps = 11500/16498
+2023-12-03 12:41:26,225 - trainer - INFO -   Instantaneous batch size per GPU = 4 and n_gpu = 1 so the input batch size = 4
+2023-12-03 12:41:26,225 - trainer - INFO -   dev_loss = 1.068110	||	 dev_eval_scores = {'perplexity': 2.9098756313323975}
+2023-12-03 12:41:26,226 - trainer - INFO -   train_loss = 1.237529993057251
+2023-12-03 12:41:26,226 - trainer - INFO - 
+********************************************
+2023-12-03 12:47:08,278 - trainer - INFO -    Save model to tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 12:47:09,334 - trainer - INFO -   Save check-point at epoch=0 step=12000
+2023-12-03 12:47:09,335 - trainer - INFO -    ***** Evaluation report *****
+2023-12-03 12:47:09,335 - trainer - INFO -   Output path (short): tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 12:47:09,335 - trainer - INFO -   Early stop on: perplexity
+2023-12-03 12:47:09,335 - trainer - INFO -   Early stop count = 0/20
+2023-12-03 12:47:09,335 - trainer - INFO -   Eval steps = 500 or (iterations = 2000)
+2023-12-03 12:47:09,335 - trainer - INFO -   Best score (perplexity) = -2.8933188915252686
+2023-12-03 12:47:09,335 - trainer - INFO -   Gradient Accumulation steps = 4
+2023-12-03 12:47:09,335 - trainer - INFO -   Num of training examples (actually no. of iterations per epoch for Iterable Dataset)  = 263968
+2023-12-03 12:47:09,335 - trainer - INFO -   Num of development examples (actually no. of iterations per epoch for Iterable Dataset) = 29331
+2023-12-03 12:47:09,335 - trainer - INFO -   Time spent since last evaluation = 0h 5m 43s
+2023-12-03 12:47:09,335 - trainer - INFO -   Epoch = 1/1
+2023-12-03 12:47:09,335 - trainer - INFO -   Steps = 12000/16498
+2023-12-03 12:47:09,335 - trainer - INFO -   Instantaneous batch size per GPU = 4 and n_gpu = 1 so the input batch size = 4
+2023-12-03 12:47:09,335 - trainer - INFO -   dev_loss = 1.062404	||	 dev_eval_scores = {'perplexity': 2.8933188915252686}
+2023-12-03 12:47:09,336 - trainer - INFO -   train_loss = 1.2340437173843384
+2023-12-03 12:47:09,336 - trainer - INFO - 
+********************************************
+2023-12-03 12:52:51,190 - trainer - INFO -    Save model to tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 12:52:52,243 - trainer - INFO -   Save check-point at epoch=0 step=12500
+2023-12-03 12:52:52,243 - trainer - INFO -    ***** Evaluation report *****
+2023-12-03 12:52:52,243 - trainer - INFO -   Output path (short): tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 12:52:52,243 - trainer - INFO -   Early stop on: perplexity
+2023-12-03 12:52:52,243 - trainer - INFO -   Early stop count = 0/20
+2023-12-03 12:52:52,243 - trainer - INFO -   Eval steps = 500 or (iterations = 2000)
+2023-12-03 12:52:52,243 - trainer - INFO -   Best score (perplexity) = -2.889050245285034
+2023-12-03 12:52:52,243 - trainer - INFO -   Gradient Accumulation steps = 4
+2023-12-03 12:52:52,243 - trainer - INFO -   Num of training examples (actually no. of iterations per epoch for Iterable Dataset)  = 263968
+2023-12-03 12:52:52,243 - trainer - INFO -   Num of development examples (actually no. of iterations per epoch for Iterable Dataset) = 29331
+2023-12-03 12:52:52,244 - trainer - INFO -   Time spent since last evaluation = 0h 5m 42s
+2023-12-03 12:52:52,244 - trainer - INFO -   Epoch = 1/1
+2023-12-03 12:52:52,244 - trainer - INFO -   Steps = 12500/16498
+2023-12-03 12:52:52,244 - trainer - INFO -   Instantaneous batch size per GPU = 4 and n_gpu = 1 so the input batch size = 4
+2023-12-03 12:52:52,244 - trainer - INFO -   dev_loss = 1.060928	||	 dev_eval_scores = {'perplexity': 2.889050245285034}
+2023-12-03 12:52:52,244 - trainer - INFO -   train_loss = 1.2310172319412231
+2023-12-03 12:52:52,244 - trainer - INFO - 
+********************************************
+2023-12-03 12:58:34,053 - trainer - INFO -    Save model to tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 12:58:35,084 - trainer - INFO -   Save check-point at epoch=0 step=13000
+2023-12-03 12:58:35,084 - trainer - INFO -    ***** Evaluation report *****
+2023-12-03 12:58:35,084 - trainer - INFO -   Output path (short): tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 12:58:35,084 - trainer - INFO -   Early stop on: perplexity
+2023-12-03 12:58:35,085 - trainer - INFO -   Early stop count = 0/20
+2023-12-03 12:58:35,085 - trainer - INFO -   Eval steps = 500 or (iterations = 2000)
+2023-12-03 12:58:35,085 - trainer - INFO -   Best score (perplexity) = -2.8779499530792236
+2023-12-03 12:58:35,085 - trainer - INFO -   Gradient Accumulation steps = 4
+2023-12-03 12:58:35,085 - trainer - INFO -   Num of training examples (actually no. of iterations per epoch for Iterable Dataset)  = 263968
+2023-12-03 12:58:35,085 - trainer - INFO -   Num of development examples (actually no. of iterations per epoch for Iterable Dataset) = 29331
+2023-12-03 12:58:35,085 - trainer - INFO -   Time spent since last evaluation = 0h 5m 42s
+2023-12-03 12:58:35,085 - trainer - INFO -   Epoch = 1/1
+2023-12-03 12:58:35,085 - trainer - INFO -   Steps = 13000/16498
+2023-12-03 12:58:35,085 - trainer - INFO -   Instantaneous batch size per GPU = 4 and n_gpu = 1 so the input batch size = 4
+2023-12-03 12:58:35,085 - trainer - INFO -   dev_loss = 1.057078	||	 dev_eval_scores = {'perplexity': 2.8779499530792236}
+2023-12-03 12:58:35,085 - trainer - INFO -   train_loss = 1.2283520698547363
+2023-12-03 12:58:35,085 - trainer - INFO - 
+********************************************
+2023-12-03 13:04:16,294 - trainer - INFO -    Save model to tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 13:04:17,323 - trainer - INFO -   Save check-point at epoch=0 step=13500
+2023-12-03 13:04:17,323 - trainer - INFO -    ***** Evaluation report *****
+2023-12-03 13:04:17,323 - trainer - INFO -   Output path (short): tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 13:04:17,323 - trainer - INFO -   Early stop on: perplexity
+2023-12-03 13:04:17,323 - trainer - INFO -   Early stop count = 0/20
+2023-12-03 13:04:17,323 - trainer - INFO -   Eval steps = 500 or (iterations = 2000)
+2023-12-03 13:04:17,323 - trainer - INFO -   Best score (perplexity) = -2.8684427738189697
+2023-12-03 13:04:17,323 - trainer - INFO -   Gradient Accumulation steps = 4
+2023-12-03 13:04:17,323 - trainer - INFO -   Num of training examples (actually no. of iterations per epoch for Iterable Dataset)  = 263968
+2023-12-03 13:04:17,323 - trainer - INFO -   Num of development examples (actually no. of iterations per epoch for Iterable Dataset) = 29331
+2023-12-03 13:04:17,324 - trainer - INFO -   Time spent since last evaluation = 0h 5m 42s
+2023-12-03 13:04:17,324 - trainer - INFO -   Epoch = 1/1
+2023-12-03 13:04:17,324 - trainer - INFO -   Steps = 13500/16498
+2023-12-03 13:04:17,324 - trainer - INFO -   Instantaneous batch size per GPU = 4 and n_gpu = 1 so the input batch size = 4
+2023-12-03 13:04:17,324 - trainer - INFO -   dev_loss = 1.053769	||	 dev_eval_scores = {'perplexity': 2.8684427738189697}
+2023-12-03 13:04:17,324 - trainer - INFO -   train_loss = 1.2255867719650269
+2023-12-03 13:04:17,324 - trainer - INFO - 
+********************************************
+2023-12-03 13:09:58,461 - trainer - INFO -    Save model to tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 13:09:59,530 - trainer - INFO -   Save check-point at epoch=0 step=14000
+2023-12-03 13:09:59,530 - trainer - INFO -    ***** Evaluation report *****
+2023-12-03 13:09:59,530 - trainer - INFO -   Output path (short): tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 13:09:59,530 - trainer - INFO -   Early stop on: perplexity
+2023-12-03 13:09:59,530 - trainer - INFO -   Early stop count = 0/20
+2023-12-03 13:09:59,530 - trainer - INFO -   Eval steps = 500 or (iterations = 2000)
+2023-12-03 13:09:59,530 - trainer - INFO -   Best score (perplexity) = -2.861734390258789
+2023-12-03 13:09:59,530 - trainer - INFO -   Gradient Accumulation steps = 4
+2023-12-03 13:09:59,530 - trainer - INFO -   Num of training examples (actually no. of iterations per epoch for Iterable Dataset)  = 263968
+2023-12-03 13:09:59,530 - trainer - INFO -   Num of development examples (actually no. of iterations per epoch for Iterable Dataset) = 29331
+2023-12-03 13:09:59,530 - trainer - INFO -   Time spent since last evaluation = 0h 5m 42s
+2023-12-03 13:09:59,531 - trainer - INFO -   Epoch = 1/1
+2023-12-03 13:09:59,531 - trainer - INFO -   Steps = 14000/16498
+2023-12-03 13:09:59,531 - trainer - INFO -   Instantaneous batch size per GPU = 4 and n_gpu = 1 so the input batch size = 4
+2023-12-03 13:09:59,531 - trainer - INFO -   dev_loss = 1.051428	||	 dev_eval_scores = {'perplexity': 2.861734390258789}
+2023-12-03 13:09:59,531 - trainer - INFO -   train_loss = 1.2223941087722778
+2023-12-03 13:09:59,531 - trainer - INFO - 
+********************************************
+2023-12-03 13:15:40,666 - trainer - INFO -    Save model to tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 13:15:41,697 - trainer - INFO -   Save check-point at epoch=0 step=14500
+2023-12-03 13:15:41,698 - trainer - INFO -    ***** Evaluation report *****
+2023-12-03 13:15:41,698 - trainer - INFO -   Output path (short): tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 13:15:41,698 - trainer - INFO -   Early stop on: perplexity
+2023-12-03 13:15:41,698 - trainer - INFO -   Early stop count = 0/20
+2023-12-03 13:15:41,698 - trainer - INFO -   Eval steps = 500 or (iterations = 2000)
+2023-12-03 13:15:41,698 - trainer - INFO -   Best score (perplexity) = -2.8596432209014893
+2023-12-03 13:15:41,698 - trainer - INFO -   Gradient Accumulation steps = 4
+2023-12-03 13:15:41,698 - trainer - INFO -   Num of training examples (actually no. of iterations per epoch for Iterable Dataset)  = 263968
+2023-12-03 13:15:41,698 - trainer - INFO -   Num of development examples (actually no. of iterations per epoch for Iterable Dataset) = 29331
+2023-12-03 13:15:41,698 - trainer - INFO -   Time spent since last evaluation = 0h 5m 42s
+2023-12-03 13:15:41,698 - trainer - INFO -   Epoch = 1/1
+2023-12-03 13:15:41,698 - trainer - INFO -   Steps = 14500/16498
+2023-12-03 13:15:41,698 - trainer - INFO -   Instantaneous batch size per GPU = 4 and n_gpu = 1 so the input batch size = 4
+2023-12-03 13:15:41,698 - trainer - INFO -   dev_loss = 1.050697	||	 dev_eval_scores = {'perplexity': 2.8596432209014893}
+2023-12-03 13:15:41,699 - trainer - INFO -   train_loss = 1.2197315692901611
+2023-12-03 13:15:41,699 - trainer - INFO - 
+********************************************
+2023-12-03 13:21:22,536 - trainer - INFO -    Save model to tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 13:21:23,590 - trainer - INFO -   Save check-point at epoch=0 step=15000
+2023-12-03 13:21:23,590 - trainer - INFO -    ***** Evaluation report *****
+2023-12-03 13:21:23,590 - trainer - INFO -   Output path (short): tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 13:21:23,590 - trainer - INFO -   Early stop on: perplexity
+2023-12-03 13:21:23,590 - trainer - INFO -   Early stop count = 0/20
+2023-12-03 13:21:23,590 - trainer - INFO -   Eval steps = 500 or (iterations = 2000)
+2023-12-03 13:21:23,590 - trainer - INFO -   Best score (perplexity) = -2.8589162826538086
+2023-12-03 13:21:23,590 - trainer - INFO -   Gradient Accumulation steps = 4
+2023-12-03 13:21:23,590 - trainer - INFO -   Num of training examples (actually no. of iterations per epoch for Iterable Dataset)  = 263968
+2023-12-03 13:21:23,591 - trainer - INFO -   Num of development examples (actually no. of iterations per epoch for Iterable Dataset) = 29331
+2023-12-03 13:21:23,591 - trainer - INFO -   Time spent since last evaluation = 0h 5m 41s
+2023-12-03 13:21:23,591 - trainer - INFO -   Epoch = 1/1
+2023-12-03 13:21:23,591 - trainer - INFO -   Steps = 15000/16498
+2023-12-03 13:21:23,591 - trainer - INFO -   Instantaneous batch size per GPU = 4 and n_gpu = 1 so the input batch size = 4
+2023-12-03 13:21:23,591 - trainer - INFO -   dev_loss = 1.050443	||	 dev_eval_scores = {'perplexity': 2.8589162826538086}
+2023-12-03 13:21:23,591 - trainer - INFO -   train_loss = 1.2173651456832886
+2023-12-03 13:21:23,591 - trainer - INFO - 
+********************************************
+2023-12-03 13:27:04,746 - trainer - INFO -    Save model to tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 13:27:05,798 - trainer - INFO -   Save check-point at epoch=0 step=15500
+2023-12-03 13:27:05,799 - trainer - INFO -    ***** Evaluation report *****
+2023-12-03 13:27:05,799 - trainer - INFO -   Output path (short): tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 13:27:05,799 - trainer - INFO -   Early stop on: perplexity
+2023-12-03 13:27:05,799 - trainer - INFO -   Early stop count = 0/20
+2023-12-03 13:27:05,799 - trainer - INFO -   Eval steps = 500 or (iterations = 2000)
+2023-12-03 13:27:05,799 - trainer - INFO -   Best score (perplexity) = -2.85280704498291
+2023-12-03 13:27:05,799 - trainer - INFO -   Gradient Accumulation steps = 4
+2023-12-03 13:27:05,799 - trainer - INFO -   Num of training examples (actually no. of iterations per epoch for Iterable Dataset)  = 263968
+2023-12-03 13:27:05,799 - trainer - INFO -   Num of development examples (actually no. of iterations per epoch for Iterable Dataset) = 29331
+2023-12-03 13:27:05,799 - trainer - INFO -   Time spent since last evaluation = 0h 5m 42s
+2023-12-03 13:27:05,799 - trainer - INFO -   Epoch = 1/1
+2023-12-03 13:27:05,799 - trainer - INFO -   Steps = 15500/16498
+2023-12-03 13:27:05,799 - trainer - INFO -   Instantaneous batch size per GPU = 4 and n_gpu = 1 so the input batch size = 4
+2023-12-03 13:27:05,799 - trainer - INFO -   dev_loss = 1.048303	||	 dev_eval_scores = {'perplexity': 2.85280704498291}
+2023-12-03 13:27:05,800 - trainer - INFO -   train_loss = 1.2152676582336426
+2023-12-03 13:27:05,800 - trainer - INFO - 
+********************************************
+2023-12-03 13:32:47,116 - trainer - INFO -    Save model to tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 13:32:48,170 - trainer - INFO -   Save check-point at epoch=0 step=16000
+2023-12-03 13:32:48,170 - trainer - INFO -    ***** Evaluation report *****
+2023-12-03 13:32:48,170 - trainer - INFO -   Output path (short): tmp/model/distilgpt2_fine_tuned_coder
+2023-12-03 13:32:48,170 - trainer - INFO -   Early stop on: perplexity
+2023-12-03 13:32:48,170 - trainer - INFO -   Early stop count = 0/20
+2023-12-03 13:32:48,171 - trainer - INFO -   Eval steps = 500 or (iterations = 2000)
+2023-12-03 13:32:48,171 - trainer - INFO -   Best score (perplexity) = -2.85050630569458
+2023-12-03 13:32:48,171 - trainer - INFO -   Gradient Accumulation steps = 4
+2023-12-03 13:32:48,171 - trainer - INFO -   Num of training examples (actually no. of iterations per epoch for Iterable Dataset)  = 263968
+2023-12-03 13:32:48,171 - trainer - INFO -   Num of development examples (actually no. of iterations per epoch for Iterable Dataset) = 29331
+2023-12-03 13:32:48,171 - trainer - INFO -   Time spent since last evaluation = 0h 5m 42s
+2023-12-03 13:32:48,171 - trainer - INFO -   Epoch = 1/1
+2023-12-03 13:32:48,171 - trainer - INFO -   Steps = 16000/16498
+2023-12-03 13:32:48,171 - trainer - INFO -   Instantaneous batch size per GPU = 4 and n_gpu = 1 so the input batch size = 4
+2023-12-03 13:32:48,171 - trainer - INFO -   dev_loss = 1.047497	||	 dev_eval_scores = {'perplexity': 2.85050630569458}
+2023-12-03 13:32:48,171 - trainer - INFO -   train_loss = 1.212836503982544
+2023-12-03 13:32:48,171 - trainer - INFO - 
+********************************************
+2023-12-03 13:35:32,555 - trainer - INFO - epoch 1 ends, 0 epoches left
+2023-12-03 13:35:32,555 - trainer - INFO - 
+global_average_loss=1.2108893394470215,global_steps=16498 on training set
